@@ -11,4 +11,5 @@ int main()
 {
    add(4,5);
    mins(6,7);
+   return 0;
 }
