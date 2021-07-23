@@ -1,20 +1,24 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int add(int a,int b)
+int add(int a, int b)
 {
-   return a+b;
+   return a + b;
 }
-int minus(int a,int b)
+int minu(int a, int b)
 {
-   return a-b;
+   return a - b;
 }
-int divide(int a,int b)
+int divide(int a, int b)
 {
-   return a/b;
+   return a / b;
+}
+int multily(int a, int b)
+{
+   return a * b;
 }
 int main()
 {
-   add(4,5);
-   mins(6,7);
+  int a=add(4, 5);
+  int b= minu(6, 7);
    return 0;
 }
