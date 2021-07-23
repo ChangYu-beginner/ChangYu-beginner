@@ -8,6 +8,10 @@ int minus(int a,int b)
 {
    return a-b;
 }
+int multily(int a,int b)
+{
+   return a*b;
+}
 int main()
 {
    add(4,5);
