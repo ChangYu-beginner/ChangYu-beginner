@@ -4,6 +4,10 @@ int add(int a,int b)
 {
    return a+b;
 }
+void add(int c)
+{
+   int a=c;
+}
 int minus(int a,int b)
 {
    return a-b;
